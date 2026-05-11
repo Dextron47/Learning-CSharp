@@ -20,6 +20,10 @@ namespace Giraffe2.Arrays
             friends[4] = "Andy";
 
             Console.WriteLine(friends[0]);
+            Console.WriteLine(friends[1]);
+            Console.WriteLine(friends[2]);
+            Console.WriteLine(friends[3]);
+            Console.WriteLine(friends[4]);
 
             luckyNumbers[1] = 900;
 

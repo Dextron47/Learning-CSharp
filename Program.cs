@@ -1,4 +1,5 @@
 ﻿using Giraffe2.Arrays;
+using Giraffe2.Methods;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -112,7 +113,12 @@ namespace Giraffe2
             //Console.WriteLine(num + 4);
 
             //MadLib.Run();
-            ArrayPractice.Run();
+            //ArrayPractice.Run();
+            Method.SayHi();
+            Method.SayHello("Tom", 22);
+            Method.SayHello("John", 24);
+            Method.SayHello("Mike", 32);
+
 
         }
     }
