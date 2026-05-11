@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayPractice.cs" />
+    <Compile Include="IfStatement\Calculator.cs" />
     <Compile Include="IfStatement\If.cs" />
     <Compile Include="IfStatement\If2.cs" />
     <Compile Include="Methods\Method.cs" />

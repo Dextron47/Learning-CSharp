@@ -1,4 +1,5 @@
 ﻿using Giraffe2.Arrays;
+using Giraffe2.IfStatement;
 using Giraffe2.Methods;
 using System;
 using System.Collections.Generic;
@@ -128,8 +129,9 @@ namespace Giraffe2
             //IfStatement.If.Run2();
             //IfStatement.If.Run3();
             //IfStatement.If2.Max();
-            Console.WriteLine(IfStatement.If2.Min(511, 1011, 123));
+            //Console.WriteLine(IfStatement.If2.Min(511, 1011, 123));
 
+            Calculator.Run();
 
 
         }
