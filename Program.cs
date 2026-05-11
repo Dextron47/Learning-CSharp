@@ -114,10 +114,16 @@ namespace Giraffe2
 
             //MadLib.Run();
             //ArrayPractice.Run();
-            Method.SayHi();
-            Method.SayHello("Tom", 22);
-            Method.SayHello("John", 24);
-            Method.SayHello("Mike", 32);
+            //Method.SayHi();
+            //Method.SayHello("Tom", 22);
+            //Method.SayHello("John", 24);
+            //Method.SayHello("Mike", 32);
+
+            Console.WriteLine(ReturnType.ReturnType.Cube(3));
+
+            int result = ReturnType.ReturnType.Cube(4);
+            Console.WriteLine(result);
+
 
 
         }
