@@ -119,10 +119,16 @@ namespace Giraffe2
             //Method.SayHello("John", 24);
             //Method.SayHello("Mike", 32);
 
-            Console.WriteLine(ReturnType.ReturnType.Cube(3));
+            //Console.WriteLine(ReturnType.ReturnType.Cube(3));
 
-            int result = ReturnType.ReturnType.Cube(4);
-            Console.WriteLine(result);
+            //int result = ReturnType.ReturnType.Cube(4);
+            //Console.WriteLine(result);
+
+            //IfStatement.If.Run();
+            //IfStatement.If.Run2();
+            //IfStatement.If.Run3();
+            //IfStatement.If2.Max();
+            Console.WriteLine(IfStatement.If2.Min(511, 1011, 123));
 
 
 

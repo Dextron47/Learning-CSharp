@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Giraffe2.ReturnType
 {
-    internal class ReturnType
+    class ReturnType
     {
         public static int Cube(int num)
         {
