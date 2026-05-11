@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Giraffe2.Arrays;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
 using System.Globalization;
@@ -110,7 +111,8 @@ namespace Giraffe2
 
             //Console.WriteLine(num + 4);
 
-            MadLib.Run();
+            //MadLib.Run();
+            ArrayPractice.Run();
 
         }
     }
