@@ -1,5 +1,6 @@
 ﻿using Giraffe2.Arrays;
 using Giraffe2.IfStatement;
+using Giraffe2.Loops;
 using Giraffe2.Methods;
 using System;
 using System.Collections.Generic;
@@ -133,7 +134,12 @@ namespace Giraffe2
 
             //Calculator.Run();
             //switchStatement.SS_Day.GetDay(3);
-            Console.WriteLine(switchStatement.SS_Day.GetDay(12));
+            //Console.WriteLine(switchStatement.SS_Day.GetDay(12));
+
+            //WhileLoop.Run();
+            //WhileLoop.Run2();
+            //GuessingGame.Run();
+            GuessingGame.Run2();
 
 
         }

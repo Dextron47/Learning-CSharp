@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayPractice.cs" />
+    <Compile Include="GuessingGame.cs" />
     <Compile Include="IfStatement\Calculator.cs" />
     <Compile Include="IfStatement\If.cs" />
     <Compile Include="IfStatement\If2.cs" />
+    <Compile Include="Loops\WhileLoop.cs" />
     <Compile Include="Methods\Method.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
