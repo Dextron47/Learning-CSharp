@@ -51,6 +51,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturnType\ReturnType.cs" />
+    <Compile Include="switchStatement\SS_Day.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

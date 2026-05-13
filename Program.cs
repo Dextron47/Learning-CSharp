@@ -131,7 +131,9 @@ namespace Giraffe2
             //IfStatement.If2.Max();
             //Console.WriteLine(IfStatement.If2.Min(511, 1011, 123));
 
-            Calculator.Run();
+            //Calculator.Run();
+            //switchStatement.SS_Day.GetDay(3);
+            Console.WriteLine(switchStatement.SS_Day.GetDay(12));
 
 
         }

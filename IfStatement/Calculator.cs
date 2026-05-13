@@ -39,6 +39,7 @@ namespace Giraffe2.IfStatement
                 Console.WriteLine("Invalid operation");
                 ans = 0;
             }
+
             Console.WriteLine("Result: " + ans);
 
         }
