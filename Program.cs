@@ -138,8 +138,8 @@ namespace Giraffe2
 
             //WhileLoop.Run();
             //WhileLoop.Run2();
-            //GuessingGame.Run();
-            GuessingGame.Run2();
+            GuessingGame.Run();
+            //GuessingGame.Run2();
 
 
         }

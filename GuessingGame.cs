@@ -12,14 +12,36 @@ namespace Giraffe2
         {
             string secretWord = "giraffe";
             string guess = "";
+            int guessCount = 0;
+            int guesslimit = 3;
+            bool outOfGuesses = false;
 
-            while(guess != secretWord)
+            while (guess != secretWord && !outOfGuesses)
             {
-                Console.WriteLine("Enter guess : ");
-                guess = Console.ReadLine();
+                if(guessCount < guesslimit)
+                {
+                    Console.WriteLine("Enter guess : ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                }
+                else
+                {
+                    outOfGuesses = true;
+                }
+                
+            }
+            Console.WriteLine("Guess Count : " + guessCount);
+
+            if(outOfGuesses == false)
+            {
+                Console.WriteLine("You win!");
+            }
+            else
+            {
+                Console.WriteLine("You lose!");
             }
 
-            Console.WriteLine("You win!");
+          
         }
 
         public static void Run2()
