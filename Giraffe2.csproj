@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayPractice.cs" />
+    <Compile Include="Arrays\TwoDim.cs" />
     <Compile Include="Loops\Exponentfunc.cs" />
     <Compile Include="GuessingGame.cs" />
     <Compile Include="IfStatement\Calculator.cs" />
