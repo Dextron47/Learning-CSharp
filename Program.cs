@@ -3,6 +3,7 @@ using Giraffe2.ExceptionHandling;
 using Giraffe2.IfStatement;
 using Giraffe2.Loops;
 using Giraffe2.Methods;
+using Giraffe2.OOP;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -149,7 +150,25 @@ namespace Giraffe2
 
             //TwoDim.Run();
 
-            ExceptionHand.Run();
+            //ExceptionHand.Run();
+
+            Book b = new Book();
+            b.title = "The Great Gatsby";
+            b.author = "F. Scott Fitzgerald";
+            b.pages = 180;
+
+            Book b2 = new Book();
+            b2.title = "Harry Potter and the Sorcerer's Stone";
+            b2.author = "J.K. Rowling";
+            b2.pages = 309; 
+
+            Console.WriteLine("Book name : " + b.title);
+            Console.WriteLine("Author : " + b.author);
+            Console.WriteLine("Pages : " + b.pages);
+            Console.WriteLine("Book name : " + b2.title);
+            Console.WriteLine("Author : " + b2.author);
+            Console.WriteLine("Pages : " + b2.pages);
+
 
 
         }
