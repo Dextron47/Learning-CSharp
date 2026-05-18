@@ -1,4 +1,5 @@
 ﻿using Giraffe2.Arrays;
+using Giraffe2.ExceptionHandling;
 using Giraffe2.IfStatement;
 using Giraffe2.Loops;
 using Giraffe2.Methods;
@@ -146,7 +147,10 @@ namespace Giraffe2
 
             //Console.WriteLine(Exponent_Function.Exponentfunc.GetPow(3, 4));
 
-            TwoDim.Run();
+            //TwoDim.Run();
+
+            ExceptionHand.Run();
+
 
         }
     }

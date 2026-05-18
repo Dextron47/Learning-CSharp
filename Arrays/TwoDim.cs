@@ -21,6 +21,9 @@ namespace Giraffe2.Arrays
             int[,] myArray = new int[2,3];
 
             Console.WriteLine(numberGrid[1,1]);
+
+            
+           
         }
     }
 }
