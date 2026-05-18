@@ -142,7 +142,10 @@ namespace Giraffe2
             //GuessingGame.Run2();
 
             //ForLoop.Run();
-            ForLoop.Run2(); 
+            //ForLoop.Run2(); 
+
+            Console.WriteLine(Exponent_Function.Exponentfunc.GetPow(3, 4));
+
 
 
         }
