@@ -71,6 +71,7 @@
     <Compile Include="Loops\WhileLoop.cs" />
     <Compile Include="Methods\Method.cs" />
     <Compile Include="OOP\Book.cs" />
+    <Compile Include="OOP\GetterSetter\Movie.cs" />
     <Compile Include="OOP\ObjectMethod\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

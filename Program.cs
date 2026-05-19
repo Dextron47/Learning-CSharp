@@ -4,6 +4,7 @@ using Giraffe2.IfStatement;
 using Giraffe2.Loops;
 using Giraffe2.Methods;
 using Giraffe2.OOP;
+using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.ObjectMethod;
 using System;
 using System.Collections.Generic;
@@ -177,14 +178,20 @@ namespace Giraffe2
             //b3.title = "The Hobbit";
             //Console.WriteLine(b3.title);
 
-            Student student1 = new Student("Tom", "Computer Science", 3.5);
-            Student student2 = new Student("Mike", "Business", 2.8);
-            Console.WriteLine("Student name: " + student1.name);
-            Console.WriteLine("Major: " + student1.major);
-            Console.WriteLine("GPA: " + student1.gpa);
+            //Student student1 = new Student("Tom", "Computer Science", 3.5);
+            //Student student2 = new Student("Mike", "Business", 2.8);
+            //Console.WriteLine("Student name: " + student1.name);
+            //Console.WriteLine("Major: " + student1.major);
+            //Console.WriteLine("GPA: " + student1.gpa);
 
-            Console.WriteLine(student1.HasHonors());
-            Console.WriteLine(student2.HasHonors());
+            //Console.WriteLine(student1.HasHonors());
+            //Console.WriteLine(student2.HasHonors());
+
+            Movie movie1 = new Movie("The Shawshank Redemption", "Frank Darabont", "R");
+            Movie movie2 = new Movie("The Avengers", "Joss Whedon", "PG-13");
+
+            movie1.Rating = "PG-13";
+            Console.WriteLine(movie1.Rating);
 
         }
     }
