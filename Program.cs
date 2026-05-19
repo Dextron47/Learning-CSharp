@@ -4,6 +4,7 @@ using Giraffe2.IfStatement;
 using Giraffe2.Loops;
 using Giraffe2.Methods;
 using Giraffe2.OOP;
+using Giraffe2.OOP.ObjectMethod;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -170,11 +171,20 @@ namespace Giraffe2
             //Console.WriteLine("Pages : " + b2.pages);
 
 
-            Constructor.Book b3 = new Constructor.Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 309);
-            Constructor.Book b4 = new Constructor.Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
+            //Constructor.Book b3 = new Constructor.Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 309);
+            //Constructor.Book b4 = new Constructor.Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
 
-            b3.title = "The Hobbit";
-            Console.WriteLine(b3.title);
+            //b3.title = "The Hobbit";
+            //Console.WriteLine(b3.title);
+
+            Student student1 = new Student("Tom", "Computer Science", 3.5);
+            Student student2 = new Student("Mike", "Business", 2.8);
+            Console.WriteLine("Student name: " + student1.name);
+            Console.WriteLine("Major: " + student1.major);
+            Console.WriteLine("GPA: " + student1.gpa);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
 
         }
     }

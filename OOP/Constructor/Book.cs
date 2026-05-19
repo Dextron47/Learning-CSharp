@@ -21,5 +21,10 @@ namespace Giraffe2.Constructor
             author  = aAuthor;
             pages = aPages;
         }
+
+        public Book()
+        {
+
+        }
     }
 }
