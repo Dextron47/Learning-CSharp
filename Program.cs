@@ -152,24 +152,29 @@ namespace Giraffe2
 
             //ExceptionHand.Run();
 
-            Book b = new Book();
-            b.title = "The Great Gatsby";
-            b.author = "F. Scott Fitzgerald";
-            b.pages = 180;
+            //Book b = new Book();
+            //b.title = "The Great Gatsby";
+            //b.author = "F. Scott Fitzgerald";
+            //b.pages = 180;
 
-            Book b2 = new Book();
-            b2.title = "Harry Potter and the Sorcerer's Stone";
-            b2.author = "J.K. Rowling";
-            b2.pages = 309; 
+            //Book b2 = new Book();
+            //b2.title = "Harry Potter and the Sorcerer's Stone";
+            //b2.author = "J.K. Rowling";
+            //b2.pages = 309; 
 
-            Console.WriteLine("Book name : " + b.title);
-            Console.WriteLine("Author : " + b.author);
-            Console.WriteLine("Pages : " + b.pages);
-            Console.WriteLine("Book name : " + b2.title);
-            Console.WriteLine("Author : " + b2.author);
-            Console.WriteLine("Pages : " + b2.pages);
+            //Console.WriteLine("Book name : " + b.title);
+            //Console.WriteLine("Author : " + b.author);
+            //Console.WriteLine("Pages : " + b.pages);
+            //Console.WriteLine("Book name : " + b2.title);
+            //Console.WriteLine("Author : " + b2.author);
+            //Console.WriteLine("Pages : " + b2.pages);
 
 
+            Constructor.Book b3 = new Constructor.Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 309);
+            Constructor.Book b4 = new Constructor.Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
+
+            b3.title = "The Hobbit";
+            Console.WriteLine(b3.title);
 
         }
     }
