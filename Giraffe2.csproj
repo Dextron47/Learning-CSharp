@@ -72,6 +72,8 @@
     <Compile Include="Methods\Method.cs" />
     <Compile Include="OOP\Book.cs" />
     <Compile Include="OOP\GetterSetter\Movie.cs" />
+    <Compile Include="OOP\inheritance\Chef.cs" />
+    <Compile Include="OOP\inheritance\ItalianChef.cs" />
     <Compile Include="OOP\ObjectMethod\Student.cs" />
     <Compile Include="OOP\static-class-attribute\Song.cs" />
     <Compile Include="OOP\staticMethod-&amp;-Classes\StaticMethod&amp;Classes.cs" />

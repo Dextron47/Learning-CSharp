@@ -5,6 +5,7 @@ using Giraffe2.Loops;
 using Giraffe2.Methods;
 using Giraffe2.OOP;
 using Giraffe2.OOP.GetterSetter;
+using Giraffe2.OOP.inheritance;
 using Giraffe2.OOP.ObjectMethod;
 using Giraffe2.OOP.static_class_attribute;
 using Giraffe2.OOP.staticMethod___Classes;
@@ -203,10 +204,19 @@ namespace Giraffe2
             //Console.WriteLine(holiday.GetSongCount());
             //Console.WriteLine(Kashmir.artist);
 
-            StaticMethod_Classes.Run();
-            UsefulTools.sayHi("Sudhanshu");
+            //StaticMethod_Classes.Run();
+            //UsefulTools.sayHi("Sudhanshu");
 
             //UsefulTools ut = new UsefulTools();
+
+            Chef chef = new Chef();
+            //chef.MakeChicken();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            //italianChef.MakeChicken();
+            italianChef.MakeSpecialDish();
+            //italianChef.MakePasta();
 
         }
     }
