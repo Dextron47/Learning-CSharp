@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Giraffe2.OOP.staticMethod___Classes
 {
-    internal class UsefulTools
+    static class UsefulTools
     {
         public static void sayHi(String name)
         {
