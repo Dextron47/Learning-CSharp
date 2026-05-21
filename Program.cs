@@ -6,6 +6,7 @@ using Giraffe2.Methods;
 using Giraffe2.OOP;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.ObjectMethod;
+using Giraffe2.OOP.static_class_attribute;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -187,11 +188,19 @@ namespace Giraffe2
             //Console.WriteLine(student1.HasHonors());
             //Console.WriteLine(student2.HasHonors());
 
-            Movie movie1 = new Movie("The Shawshank Redemption", "Frank Darabont", "R");
-            Movie movie2 = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            //Movie movie1 = new Movie("The Shawshank Redemption", "Frank Darabont", "R");
+            //Movie movie2 = new Movie("The Avengers", "Joss Whedon", "PG-13");
 
-            movie1.Rating = "PG-13";
-            Console.WriteLine(movie1.Rating);
+            //movie1.Rating = "PG-13";
+            //Console.WriteLine(movie1.Rating);
+
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            Console.WriteLine(Song.songCount);
+            Song Kashmir = new Song("Kashmir", "Led Zeppelin", 500);
+
+            Console.WriteLine(Song.songCount);
+            Console.WriteLine(holiday.GetSongCount());
+            Console.WriteLine(Kashmir.artist);
 
         }
     }
