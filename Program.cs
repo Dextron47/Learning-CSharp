@@ -7,6 +7,7 @@ using Giraffe2.OOP;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.ObjectMethod;
 using Giraffe2.OOP.static_class_attribute;
+using Giraffe2.OOP.staticMethod___Classes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -194,13 +195,16 @@ namespace Giraffe2
             //movie1.Rating = "PG-13";
             //Console.WriteLine(movie1.Rating);
 
-            Song holiday = new Song("Holiday", "Green Day", 200);
-            Console.WriteLine(Song.songCount);
-            Song Kashmir = new Song("Kashmir", "Led Zeppelin", 500);
+            //Song holiday = new Song("Holiday", "Green Day", 200);
+            //Console.WriteLine(Song.songCount);
+            //Song Kashmir = new Song("Kashmir", "Led Zeppelin", 500);
 
-            Console.WriteLine(Song.songCount);
-            Console.WriteLine(holiday.GetSongCount());
-            Console.WriteLine(Kashmir.artist);
+            //Console.WriteLine(Song.songCount);
+            //Console.WriteLine(holiday.GetSongCount());
+            //Console.WriteLine(Kashmir.artist);
+
+            StaticMethod_Classes.Run();
+            UsefulTools.sayHi("Sudhanshu");
 
         }
     }
