@@ -4,6 +4,7 @@ using Giraffe2.IfStatement;
 using Giraffe2.Loops;
 using Giraffe2.Methods;
 using Giraffe2.OOP;
+using Giraffe2.OOP.Classes___Objects;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.inheritance;
 using Giraffe2.OOP.ObjectMethod;
@@ -16,6 +17,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Giraffe2
 {
@@ -209,14 +211,55 @@ namespace Giraffe2
 
             //UsefulTools ut = new UsefulTools();
 
-            Chef chef = new Chef();
-            //chef.MakeChicken();
-            chef.MakeSpecialDish();
+            //Chef chef = new Chef();
+            ////chef.MakeChicken();
+            //chef.MakeSpecialDish();
 
-            ItalianChef italianChef = new ItalianChef();
-            //italianChef.MakeChicken();
-            italianChef.MakeSpecialDish();
-            //italianChef.MakePasta();
+            //ItalianChef italianChef = new ItalianChef();
+            ////italianChef.MakeChicken();
+            //italianChef.MakeSpecialDish();
+            ////italianChef.MakePasta();
+
+            //Student2 student1 = new Student2("Sudhanshu", 22, 101, "Computer Science");
+            //student1.StudentDetails();
+
+            //Student2 student2 = new Student2("Ankit", 21, 102, "Information Technology");
+            //student2.StudentDetails();
+
+            //Student2 student3 = new Student2();
+            //student3.name = "Ankit";
+            //student3.age = 21;
+            //student3.rollNo = 102;
+            //student3.course = "Information Technology";
+            //student3.StudentDetails();
+
+            //Car car1 = new Car();
+            //car1.Brand = "Toyota";
+            //car1.Color = "Red";
+
+            //Car car2  = new Car();
+            //car2.Color = "Blue";
+           
+            ////car2.Brand = "Honda";
+
+            ////car1.Start();
+            ////car2.Start();
+
+            //Console.WriteLine(car2.Color);
+            //car2.Start();
+            ////car2.Stop(); -- Both returns value of Brand as null because we have not assigned any value to it. So, it will print " Car has started" and " Car has stopped" without the brand name.
+            //// This teaches an important OOP concept:
+            //// Objects can exist with incomplete data unless we control object creation properly.
+            //// That is exactly why constructors and encapsulation exist.
+
+            Bike b1 = new Bike();
+            b1.Brand = "Yamaha";
+            b1.Color = "Black";
+
+            b1.Start();
+            Console.WriteLine(b1.Color);
+
+            Console.WriteLine(b1.Model); // This will print null because we have not assigned any value to it. This again shows that objects can exist with incomplete data unless we control object creation properly.
 
         }
     }

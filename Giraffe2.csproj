@@ -60,6 +60,9 @@
   <ItemGroup>
     <Compile Include="Arrays\ArrayPractice.cs" />
     <Compile Include="Arrays\TwoDim.cs" />
+    <Compile Include="OOP\Classes-&amp;-Objects\Bike.cs" />
+    <Compile Include="OOP\Classes-&amp;-Objects\Car.cs" />
+    <Compile Include="OOP\Classes-&amp;-Objects\Student2.cs" />
     <Compile Include="OOP\Constructor\Book.cs" />
     <Compile Include="ExceptionHandling\ExceptionHand.cs" />
     <Compile Include="Loops\Exponentfunc.cs" />
