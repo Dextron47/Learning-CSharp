@@ -74,6 +74,8 @@
     <Compile Include="Loops\WhileLoop.cs" />
     <Compile Include="Methods\Method.cs" />
     <Compile Include="OOP\Book.cs" />
+    <Compile Include="OOP\Constructor\Bike2.cs" />
+    <Compile Include="OOP\Constructor\Student3.cs" />
     <Compile Include="OOP\GetterSetter\Movie.cs" />
     <Compile Include="OOP\inheritance\Chef.cs" />
     <Compile Include="OOP\inheritance\ItalianChef.cs" />

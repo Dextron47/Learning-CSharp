@@ -5,6 +5,7 @@ using Giraffe2.Loops;
 using Giraffe2.Methods;
 using Giraffe2.OOP;
 using Giraffe2.OOP.Classes___Objects;
+using Giraffe2.OOP.Constructor;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.inheritance;
 using Giraffe2.OOP.ObjectMethod;
@@ -239,7 +240,7 @@ namespace Giraffe2
 
             //Car car2  = new Car();
             //car2.Color = "Blue";
-           
+
             ////car2.Brand = "Honda";
 
             ////car1.Start();
@@ -252,14 +253,29 @@ namespace Giraffe2
             //// Objects can exist with incomplete data unless we control object creation properly.
             //// That is exactly why constructors and encapsulation exist.
 
-            Bike b1 = new Bike();
-            b1.Brand = "Yamaha";
-            b1.Color = "Black";
+            //Bike b1 = new Bike();
+            //b1.Brand = "Yamaha";
+            //b1.Color = "Black";
 
-            b1.Start();
-            Console.WriteLine(b1.Color);
+            //b1.Start();
+            //Console.WriteLine(b1.Color);
 
-            Console.WriteLine(b1.Model); // This will print null because we have not assigned any value to it. This again shows that objects can exist with incomplete data unless we control object creation properly.
+            //Console.WriteLine(b1.Model); // This will print null because we have not assigned any value to it. This again shows that objects can exist with incomplete data unless we control object creation properly.
+
+            //Bike2 b1 = new Bike2();
+            //Console.WriteLine(b1.Brand);
+
+            //Bike2 b2 = new Bike2("Honda", "Civic", "Red");
+            //Console.WriteLine(b2.Brand);
+
+            //b1.Start();
+            //b2.Start();
+
+            Student3 s1 = new Student3("Sudhanshu", 101, "Software Engineering");
+            Student3 s2 = new Student3("Ankit", 102, "BBA");
+
+            s1.DisplayInfo();
+            s2.DisplayInfo();
 
         }
     }
