@@ -76,6 +76,8 @@
     <Compile Include="OOP\Book.cs" />
     <Compile Include="OOP\Constructor\Bike2.cs" />
     <Compile Include="OOP\Constructor\Student3.cs" />
+    <Compile Include="OOP\Encapsulation\Person.cs" />
+    <Compile Include="OOP\Encapsulation\Stud.cs" />
     <Compile Include="OOP\GetterSetter\Movie.cs" />
     <Compile Include="OOP\inheritance\Chef.cs" />
     <Compile Include="OOP\inheritance\ItalianChef.cs" />

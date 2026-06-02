@@ -6,6 +6,7 @@ using Giraffe2.Methods;
 using Giraffe2.OOP;
 using Giraffe2.OOP.Classes___Objects;
 using Giraffe2.OOP.Constructor;
+using Giraffe2.OOP.Encapsulation;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.inheritance;
 using Giraffe2.OOP.ObjectMethod;
@@ -271,11 +272,34 @@ namespace Giraffe2
             //b1.Start();
             //b2.Start();
 
-            Student3 s1 = new Student3("Sudhanshu", 101, "Software Engineering");
-            Student3 s2 = new Student3("Ankit", 102, "BBA");
+            //Student3 s1 = new Student3("Sudhanshu", 101, "Software Engineering");
+            //Student3 s2 = new Student3("Ankit", 102, "BBA");
 
-            s1.DisplayInfo();
-            s2.DisplayInfo();
+            //s1.DisplayInfo();
+            //s2.DisplayInfo();
+
+            Stud s1 = new Stud();
+            s1.setAge(-21); // invalid age, so it will set age to 0
+
+            Console.WriteLine(s1.getAge()); // This will print 0 because we have set age to 0 in the setAge method when an invalid age is provided.
+
+            //Stud s2 = new Stud();
+            //s2.setAge(22); // valid age, so it will set age to 22
+            //Console.WriteLine(s2.getAge());
+
+            //Person p1 = new Person();
+            //p1.setName("Sudhanshu Jha");
+            //p1.setAge(-22); // invalid age, but if the field is public, we can directly assign an invalid value to it without any control. This is why we should make fields private and use getter and setter methods to control access to them.
+
+            //Console.WriteLine(p1.getName());
+            //Console.WriteLine(p1.getAge()); // This will print -22 because we have directly assigned an invalid value to the age field without any control. This again shows the importance of encapsulation in OOP.
+
+            //Person p2 = new Person();
+            //p2.setName("Ankit");
+            //p2.setAge(-22);
+
+            //Console.WriteLine(p2.getName());
+            //Console.WriteLine(p2.getAge());
 
         }
     }
