@@ -81,8 +81,14 @@
     <Compile Include="OOP\Encapsulation\SimpleBank.cs" />
     <Compile Include="OOP\Encapsulation\Stud.cs" />
     <Compile Include="OOP\GetterSetter\Movie.cs" />
+    <Compile Include="OOP\inheritance\BankAccount.cs" />
+    <Compile Include="OOP\inheritance\Car2.cs" />
     <Compile Include="OOP\inheritance\Chef.cs" />
     <Compile Include="OOP\inheritance\ItalianChef.cs" />
+    <Compile Include="OOP\inheritance\Person2.cs" />
+    <Compile Include="OOP\inheritance\Student4.cs" />
+    <Compile Include="OOP\inheritance\Truck.cs" />
+    <Compile Include="OOP\inheritance\Vehicle.cs" />
     <Compile Include="OOP\ObjectMethod\Student.cs" />
     <Compile Include="OOP\static-class-attribute\Song.cs" />
     <Compile Include="OOP\staticMethod-&amp;-Classes\StaticMethod&amp;Classes.cs" />

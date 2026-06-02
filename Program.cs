@@ -313,16 +313,52 @@ namespace Giraffe2
             //SimpleBank Account1 = new SimpleBank();
             //Account1.Deposit(1000);
             //Console.WriteLine("Balance: " + Account1.GetBalance());
-            
+
             //Account1.Withdraw(500);
             //Console.WriteLine("Balance: " + Account1.GetBalance());
 
-            Employee employee = new Employee();
+            //Employee employee = new Employee();
             //employee.setSalary(20000); // This will set the salary to 20000 because we have provided a valid salary value.
             //Console.WriteLine($"Salary : {employee.getSalary()}");
 
-            employee.Salary = 20000; // This will set the salary to 20000 because we have provided a valid salary value.
-            Console.WriteLine($"Salary : {employee.Salary}");
+            //employee.Salary = 20000; // This will set the salary to 20000 because we have provided a valid salary value.
+            //Console.WriteLine($"Salary : {employee.Salary}");
+
+            //Car2 c1 = new Car2();
+            //c1.Brand = "Toyota";
+            //c1.Start();
+            //c1.Stop();
+
+            //c1.Speed = 60;
+            //Console.WriteLine($"Speed : {c1.Speed} km/h");
+
+            //Truck t1 = new Truck();
+            //t1.Brand = "Ford";
+            //t1.LoadCapacity = 1000;
+
+            //Console.WriteLine("Truck Load Capacity: " + t1.LoadCapacity + " kg");
+            //t1.Start();
+            //t1.Stop();
+
+            //student.age = 22;
+
+            //Student4 student = new Student4();
+
+            //student.Name = "Sudhanshu";
+            //student.Age = -22;
+            //student.DisplayInfo();
+            //student.Course = "Software Engineering";
+            //student.Study();
+
+
+            //Console.WriteLine("Student Name: " + student.name);
+            //Console.WriteLine("Student Age: " + student.age);
+
+            BankAccount account1 = new BankAccount();
+            account1.Deposit(1000); // This is valid, so it will add 1000 to the balance.
+            // account1.Balance(1000); // This will give an error because Balance is a property and we cannot call it like a method. We should use the Deposit method to add money to the balance.
+
+            Console.WriteLine("Balance: " + account1.Balance);
 
         }
     }
