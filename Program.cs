@@ -278,10 +278,10 @@ namespace Giraffe2
             //s1.DisplayInfo();
             //s2.DisplayInfo();
 
-            Stud s1 = new Stud();
-            s1.setAge(-21); // invalid age, so it will set age to 0
+            //Stud s1 = new Stud();
+            //s1.setAge(-21); // invalid age, so it will set age to 0
 
-            Console.WriteLine(s1.getAge()); // This will print 0 because we have set age to 0 in the setAge method when an invalid age is provided.
+            //Console.WriteLine(s1.getAge()); // This will print 0 because we have set age to 0 in the setAge method when an invalid age is provided.
 
             //Stud s2 = new Stud();
             //s2.setAge(22); // valid age, so it will set age to 22
@@ -300,6 +300,29 @@ namespace Giraffe2
 
             //Console.WriteLine(p2.getName());
             //Console.WriteLine(p2.getAge());
+
+            //Person p3 = new Person();
+            //p3.setName("Mike");
+            //p3.setAge(25);
+
+            //Console.WriteLine("Name: " + p3.getName());
+            //Console.WriteLine("Age: " + p3.getAge());
+            //Console.WriteLine("Created At: " + p3.GetCreationDate());
+            //Console.WriteLine($"Created At : {p3.GetCreationDate():MM/dd/yyyy HH:mm:ss}");
+
+            //SimpleBank Account1 = new SimpleBank();
+            //Account1.Deposit(1000);
+            //Console.WriteLine("Balance: " + Account1.GetBalance());
+            
+            //Account1.Withdraw(500);
+            //Console.WriteLine("Balance: " + Account1.GetBalance());
+
+            Employee employee = new Employee();
+            //employee.setSalary(20000); // This will set the salary to 20000 because we have provided a valid salary value.
+            //Console.WriteLine($"Salary : {employee.getSalary()}");
+
+            employee.Salary = 20000; // This will set the salary to 20000 because we have provided a valid salary value.
+            Console.WriteLine($"Salary : {employee.Salary}");
 
         }
     }

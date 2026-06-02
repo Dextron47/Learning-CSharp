@@ -11,6 +11,17 @@ namespace Giraffe2.OOP.Encapsulation
     {
         private string name;
         private int age;
+        private DateTime CreatedAt;
+
+        public Person()
+        {
+            CreatedAt = DateTime.Now;
+        }
+
+        public DateTime GetCreationDate()
+        {
+            return this.CreatedAt;
+        }
 
         public void setName(String name)
         {
