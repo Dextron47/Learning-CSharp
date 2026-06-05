@@ -60,6 +60,11 @@
   <ItemGroup>
     <Compile Include="Arrays\ArrayPractice.cs" />
     <Compile Include="Arrays\TwoDim.cs" />
+    <Compile Include="OOP\Abstraction\Animal3.cs" />
+    <Compile Include="OOP\Abstraction\Bike3.cs" />
+    <Compile Include="OOP\Abstraction\Car3.cs" />
+    <Compile Include="OOP\Abstraction\Lion.cs" />
+    <Compile Include="OOP\Abstraction\Vehicle2.cs" />
     <Compile Include="OOP\Classes-&amp;-Objects\Bike.cs" />
     <Compile Include="OOP\Classes-&amp;-Objects\Car.cs" />
     <Compile Include="OOP\Classes-&amp;-Objects\Student2.cs" />

@@ -4,6 +4,7 @@ using Giraffe2.IfStatement;
 using Giraffe2.Loops;
 using Giraffe2.Methods;
 using Giraffe2.OOP;
+using Giraffe2.OOP.Abstraction;
 using Giraffe2.OOP.Classes___Objects;
 using Giraffe2.OOP.Constructor;
 using Giraffe2.OOP.Encapsulation;
@@ -375,14 +376,23 @@ namespace Giraffe2
 
             //Console.WriteLine(calc.Add(10, 20, 30));
 
-            Shape s1 = new Shape();
-            s1.Draw(); // This will call the Draw method of the Shape class and print "Drawing a shape".
+            //Shape s1 = new Shape();
+            //s1.Draw(); // This will call the Draw method of the Shape class and print "Drawing a shape".
 
-            Circle c1 = new Circle();
-            c1.Draw(); // This will call the Draw method of the Circle class and print "Drawing a circle".
+            //Circle c1 = new Circle();
+            //c1.Draw(); // This will call the Draw method of the Circle class and print "Drawing a circle".
 
-            Rectangle r1 = new Rectangle();
-            r1.Draw(); // This will call the Draw method of the Rectangle class and print "Drawing a rectangle".
+            //Rectangle r1 = new Rectangle();
+            //r1.Draw(); // This will call the Draw method of the Rectangle class and print "Drawing a rectangle".
+
+            //Animal3 a3 = new Lion();
+            //a3.MakeSound(); // This will call the MakeSound method of the Lion class and print "Lion roars".
+
+            Vehicle2 v1 = new Car3();
+            v1.Start(); // This will call the Start method of the Car3 class and print "Car starts".
+
+            Vehicle2 v2 = new Bike3();
+            v2.Start();
 
 
 
