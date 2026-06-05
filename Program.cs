@@ -10,6 +10,7 @@ using Giraffe2.OOP.Constructor;
 using Giraffe2.OOP.Encapsulation;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.inheritance;
+using Giraffe2.OOP.Interfaces;
 using Giraffe2.OOP.ObjectMethod;
 using Giraffe2.OOP.Polymorphism;
 using Giraffe2.OOP.static_class_attribute;
@@ -367,7 +368,7 @@ namespace Giraffe2
 
             //Dog d1 = new Dog();
             //d1.MakeSound(); // This will call the MakeSound method of the Dog class and print "Dog barks".
-            
+
             //Cat c1 = new Cat();
             //c1.MakeSound(); // This will call the MakeSound method of the Cat class and print "Cat meows".
 
@@ -388,11 +389,34 @@ namespace Giraffe2
             //Animal3 a3 = new Lion();
             //a3.MakeSound(); // This will call the MakeSound method of the Lion class and print "Lion roars".
 
-            Vehicle2 v1 = new Car3();
-            v1.Start(); // This will call the Start method of the Car3 class and print "Car starts".
+            //Vehicle2 v1 = new Car3();
+            //v1.Start(); // This will call the Start method of the Car3 class and print "Car starts".
 
-            Vehicle2 v2 = new Bike3();
-            v2.Start();
+            //Vehicle2 v2 = new Bike3();
+            //v2.Start();
+
+            //DogNew d1 = new DogNew();
+            //d1.MakeSound(); // This will call the MakeSound method of the DogNew class and print "Dog barks".
+
+            //IAnimal a1 = new DogNew();
+            //a1.MakeSound();
+
+            //IAnimal g1 = new Giraffe();
+            //g1.MakeSound(); // This will call the MakeSound method of the Giraffe class and print "Giraffe makes a sound".
+
+            ////IAnimal c1 = new IAnimal(); // This will give an error because we cannot create an instance of an interface. We can only create instances of classes that implement the interface.
+
+            //Duck D = new Duck();
+            //D.Swim(); // This will call the Swim method of the Duck class and print "Duck is swimming".
+            //D.Fly(); // This will call the Fly method of the Duck class and print "Duck is flying".
+
+            IPayment C = new CreditCardPayment();
+            C.Pay(); // This will call the Pay method of the CreditCardPayment class and print "Payment made via Credit Card".
+
+            UpiPayment U = new UpiPayment();
+            U.Pay(); // This will call the Pay method of the UpiPayment class and print "Payment made via UPI".
+
+
 
 
 

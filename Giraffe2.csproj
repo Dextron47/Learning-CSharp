@@ -94,6 +94,15 @@
     <Compile Include="OOP\inheritance\Student4.cs" />
     <Compile Include="OOP\inheritance\Truck.cs" />
     <Compile Include="OOP\inheritance\Vehicle.cs" />
+    <Compile Include="OOP\Interfaces\CreditCardPayment.cs" />
+    <Compile Include="OOP\Interfaces\DogNew.cs" />
+    <Compile Include="OOP\Interfaces\Duck.cs" />
+    <Compile Include="OOP\Interfaces\Giraffe.cs" />
+    <Compile Include="OOP\Interfaces\IAnimal.cs" />
+    <Compile Include="OOP\Interfaces\IFly.cs" />
+    <Compile Include="OOP\Interfaces\IPayment.cs" />
+    <Compile Include="OOP\Interfaces\ISwim.cs" />
+    <Compile Include="OOP\Interfaces\UpiPayment.cs" />
     <Compile Include="OOP\ObjectMethod\Student.cs" />
     <Compile Include="OOP\Polymorphism\Animal.cs" />
     <Compile Include="OOP\Polymorphism\Calculator2.cs" />
