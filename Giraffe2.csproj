@@ -90,6 +90,13 @@
     <Compile Include="OOP\inheritance\Truck.cs" />
     <Compile Include="OOP\inheritance\Vehicle.cs" />
     <Compile Include="OOP\ObjectMethod\Student.cs" />
+    <Compile Include="OOP\Polymorphism\Animal.cs" />
+    <Compile Include="OOP\Polymorphism\Calculator2.cs" />
+    <Compile Include="OOP\Polymorphism\Cat.cs" />
+    <Compile Include="OOP\Polymorphism\Circle.cs" />
+    <Compile Include="OOP\Polymorphism\Dog.cs" />
+    <Compile Include="OOP\Polymorphism\Rectangle.cs" />
+    <Compile Include="OOP\Polymorphism\Shape.cs" />
     <Compile Include="OOP\static-class-attribute\Song.cs" />
     <Compile Include="OOP\staticMethod-&amp;-Classes\StaticMethod&amp;Classes.cs" />
     <Compile Include="OOP\staticMethod-&amp;-Classes\UsefulTools.cs" />

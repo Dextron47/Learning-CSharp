@@ -10,6 +10,7 @@ using Giraffe2.OOP.Encapsulation;
 using Giraffe2.OOP.GetterSetter;
 using Giraffe2.OOP.inheritance;
 using Giraffe2.OOP.ObjectMethod;
+using Giraffe2.OOP.Polymorphism;
 using Giraffe2.OOP.static_class_attribute;
 using Giraffe2.OOP.staticMethod___Classes;
 using System;
@@ -354,11 +355,37 @@ namespace Giraffe2
             //Console.WriteLine("Student Name: " + student.name);
             //Console.WriteLine("Student Age: " + student.age);
 
-            BankAccount account1 = new BankAccount();
-            account1.Deposit(1000); // This is valid, so it will add 1000 to the balance.
+            //BankAccount account1 = new BankAccount();
+            //account1.Deposit(1000); // This is valid, so it will add 1000 to the balance.
             // account1.Balance(1000); // This will give an error because Balance is a property and we cannot call it like a method. We should use the Deposit method to add money to the balance.
 
-            Console.WriteLine("Balance: " + account1.Balance);
+            //Console.WriteLine("Balance: " + account1.Balance);
+
+            //Animal a1 = new Animal();
+            //a1.MakeSound(); // This will call the MakeSound method of the Animal class and print "Animal makes a sound".
+
+            //Dog d1 = new Dog();
+            //d1.MakeSound(); // This will call the MakeSound method of the Dog class and print "Dog barks".
+            
+            //Cat c1 = new Cat();
+            //c1.MakeSound(); // This will call the MakeSound method of the Cat class and print "Cat meows".
+
+            //Calculator2 calc = new Calculator2();
+            //Console.WriteLine(calc.Add(12, 9));
+
+            //Console.WriteLine(calc.Add(10, 20, 30));
+
+            Shape s1 = new Shape();
+            s1.Draw(); // This will call the Draw method of the Shape class and print "Drawing a shape".
+
+            Circle c1 = new Circle();
+            c1.Draw(); // This will call the Draw method of the Circle class and print "Drawing a circle".
+
+            Rectangle r1 = new Rectangle();
+            r1.Draw(); // This will call the Draw method of the Rectangle class and print "Drawing a rectangle".
+
+
+
 
         }
     }
